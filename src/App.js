@@ -5,6 +5,8 @@ import { Shop } from "./pages/shop/shop";
 import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
+import { Scroll } from "phosphor-react";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           </Routes>
         </Router>
       </ShopContextProvider>
+      <ScrollToTopButton />
     </div>
   );
 }
