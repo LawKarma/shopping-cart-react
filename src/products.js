@@ -1,23 +1,31 @@
+import product1 from "./assets/products/1.png";
+import product2 from "./assets/products/2.png";
+import product3 from "./assets/products/3.png";
+import product4 from "./assets/products/4.png";
+import product5 from "./assets/products/5.png";
+import product6 from "./assets/products/6.webp";
+import product7 from "./assets/products/7.webp";
+import product8 from "./assets/products/8.webp";
 import product9 from "./assets/products/9.png";
 import product10 from "./assets/products/10.png";
-import product11 from "./assets/products/11.png";
+
 export const PRODUCTS = [
   {
-    id: 10,
+    id: 1,
     productName: "Valve VEB-51 PUHT",
     price: 123.0,
-    productImage: product10,
+    productImage: product1,
   },
   {
-    id: 9,
-    productName: "valve VEB-11 PUHT",
+    id: 2,
+    productName: "Valve VEB-11 PUHT",
     price: 123.0,
-    productImage: product9,
+    productImage: product2,
   },
   {
-    id: 11,
-    productName: "valve VTP-1 PUHT",
+    id: 3,
+    productName: "Valve VTP-1 PUHT",
     price: 123.0,
-    productImage: product11
+    productImage: product3,
   },
 ];

@@ -51,3 +51,8 @@
   color: white;
   cursor: pointer;
 }
+
+.special-image {
+  width: 200px; /* Changez la largeur comme vous le souhaitez */
+  height: 150px; /* Pour maintenir le ratio d'aspect de l'image */
+}
