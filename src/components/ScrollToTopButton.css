@@ -3,7 +3,7 @@
     bottom: 20px;
     right: 20px;
     cursor: pointer;
-    background-color: #5c7aea;
+    background-color: #131313;
     color: white;
     border-radius: 50%;
     width: 50px;
@@ -11,9 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
 .scroll-to-top:hover {
-    background-color: #4055b2;
+    background-color: #131313;
 }

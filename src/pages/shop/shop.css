@@ -1,21 +1,21 @@
 .shopTitle {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
 }
 .products {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
+  gap: 3rem; /* Ajustez cette valeur pour augmenter l'espacement */
 }
 
 .product {
   border-radius: 15px;
   width: 300px;
   height: 300px;
-  margin: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,10 @@
 }
 
 .product img {
-  width: 200px;
+  width: 150px;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
 .product .description {
@@ -53,6 +56,5 @@
 }
 
 .special-image {
-  width: 200px; /* Changez la largeur comme vous le souhaitez */
-  height: 150px; /* Pour maintenir le ratio d'aspect de l'image */
+  padding-top: 45px;
 }

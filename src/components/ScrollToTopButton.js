@@ -6,7 +6,7 @@ const ScrollToTopButton = () => {
 
     // Afficher le bouton quand la page est scrollée jusqu'à un certain point
     const toggleVisibility = () => {
-        if (window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight) {
+        if (window.pageYOffset > 300) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
