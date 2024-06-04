@@ -8,7 +8,6 @@ import product7 from "./assets/products/7.webp";
 import product8 from "./assets/products/8.webp";
 import product9 from "./assets/products/9.png";
 import product10 from "./assets/products/10.png";
-import product11 from "./assets/products/11.png";
 
 export const PRODUCTS = [
   {
@@ -29,52 +28,4 @@ export const PRODUCTS = [
     price: 123.0,
     productImage: product3,
   },
-  {
-    id: 4,
-    productName: "Veste en jean",
-    price: 123.0,
-    productImage: product4,
-  },
-  {
-    id: 5,
-    productName: "Ruban à LEDS",
-    price: 123.0,
-    productImage: product5,
-  },
-  {
-    id: 6,
-    productName: "Manche longue avec motif",
-    price: 123.0,
-    productImage: product6,
-  },
-  {
-    id: 7,
-    productName: "Tee shirt class",
-    price: 123.0,
-    productImage: product7,
-  },
-  {
-    id: 8,
-    productName: "Casquette don't trip",
-    price: 123.0,
-    productImage: product8,
-  },
-  {
-    id: 9,
-    productName: "Iphone 12 Pro Max 256Go",
-    price: 123.0,
-    productImage: product9,
-  },
-  {
-    id: 10,
-    productName: "Macbook M1 (2022)",
-    price: 123.0,
-    productImage: product10,
-  },
-  {
-    id: 11,
-    productName: "Valve VTP-9 PUHT",
-    price: 123.0,
-    productImage: product11,
-  }
 ];

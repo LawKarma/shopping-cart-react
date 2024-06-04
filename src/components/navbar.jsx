@@ -6,7 +6,7 @@ import "./Eqo white.png"
 export const Navbar = () => {
   return (
     <div className="navbar"> 
-      <img className='Logo' src={require("./Eqo white.png")} alt="Logo" draggable="false" />
+      <img className='Logo' src={require("./Eqo white.png")} alt="Logo" />
       <div className="links">
         <Link to="/"> Boutique </Link>
         <Link to="/contact"> Contact </Link>
